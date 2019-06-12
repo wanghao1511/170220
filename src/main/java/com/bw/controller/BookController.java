@@ -31,7 +31,7 @@ public class BookController {
 		model.addAttribute("name", name);
 		return "list";
 	}
-
+           /////添加
 	@RequestMapping("toadd")
 	public String toadd() {
 		return "add";
